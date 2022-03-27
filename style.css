@@ -1,0 +1,140 @@
+@font-face {
+    font-family: myFont;
+    src: url("fonts/OoohBaby-Regular.ttf");
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url("fonts/ComicNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url("fonts/EBGaramond-Regular.ttf");
+}
+
+@font-face {
+    font-family: myFont3;
+    src: url("handwriting_fonts/Itim-Regular.ttf");
+}
+
+@font-face {
+    font-family: myFont4;
+    src: url("fonts/PoiretOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: myFont5;
+    src: url("fonts/Neucha-Regular.ttf");
+}
+
+@font-face {
+    font-family: myFont6;
+    src: url("fonts/Comfortaa-Regular.ttf");
+}
+
+body {
+    /*background-image: url(images/bg.jpeg);*/
+    background-color: rgb(0, 26, 255);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: myFont, sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px black;
+    margin-bottom: 4px;
+}
+
+.container1 {
+    /*background-image: url(images/bg.jpeg);*/
+    background-color: rgb(0, 26, 255);
+    display: grid;
+    gap: 0px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    /*margin-right: 300px;
+    margin-left: 300px;*/
+    margin-bottom: 20px;
+}
+
+.container2 {
+    background-color: rgb(0, 26, 255);
+    /*background-image: url(images/bg3.jpeg);*/
+    display: grid;
+    gap: 0px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin-right: 15px;
+    /*margin-left: 300px;*/
+}
+
+.one {
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 290px;
+    /* 290 */
+    border-style: solid;
+    border-color: rgb(129, 129, 129);
+    border-width: 1px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.ibox {
+    width: 220px;
+    /* 220px */
+    height: 40px;
+    margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: myFont3, sans-serif;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 2px;
+}
+
+.doneBtn {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 50px;
+    position: relative;
+    border-style: solid;
+    border-color: rgb(94, 94, 94);
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 6px;
+    letter-spacing: 1px;
+    font-family: myFont1, sans-serif;
+    font-size: 13px;
+    transition: ease, font-size .2s ease-in-out;
+}
+
+.doneBtn:focus {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 1px;
+    margin-left: 3px;
+    width: 56px;
+}
+
+#btn1 {
+    height: 30px;
+    box-shadow: 2px 2px 2px black;
+    font-weight: 500;
+    font-family: myFont6, sans-serif;
+    border-color: rgb(68, 68, 68);
+    border-style: solid;
+    border-radius: 5px;
+}
